@@ -1,6 +1,6 @@
 [user]
-	name = Pieter Michels
-	email = pieter@noort.be
+	name = pixelatorz
+	email = kris.vanherzeele@gmail.com
 [apply]
   whitespace = fix
 [color]
@@ -31,8 +31,12 @@
 	editor = vim
   whitespace = fix,-indent-with-non-tab,trailing-space,cr-at-eol
 [github]
-	user = pierot
-	token = c9a84078efdf44e6cb4e534786f6991e
+	user = pixelatorz
+	token = e170e912cbeb8d9d2d4e303f7a9535f0fb612277
 [push]
 	default = current
 [alias]
+[filter "lfs"]
+	clean = git-lfs clean %f
+	smudge = git-lfs smudge %f
+	required = true
